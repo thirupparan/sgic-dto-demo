@@ -9,6 +9,7 @@ public class UserDtoMapper {
 		user.setId(userDtoRequest.getId());
 		user.setUserName(userDtoRequest.getUserName());
 		user.setEmail(userDtoRequest.getEmail());
+		user.setPassword(userDtoRequest.getPassword());
 		return user;
 
 	}

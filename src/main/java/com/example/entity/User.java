@@ -17,7 +17,7 @@ import javax.validation.constraints.Size;
 
 
 @Entity
-@Table(name = "users",schema="leave_system", uniqueConstraints = { @UniqueConstraint(columnNames = { "userName" }),
+@Table(name = "users",schema="demo", uniqueConstraints = { @UniqueConstraint(columnNames = { "userName" }),
 		@UniqueConstraint(columnNames = { "email" }) })
 public class User {
 
